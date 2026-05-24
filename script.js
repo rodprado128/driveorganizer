@@ -1,7 +1,7 @@
 // === Drive Organizer · Landing JS ===
 
 // URL do Google Apps Script Web App (substituir após deploy).
-const APP_URL = 'COLE_AQUI_A_URL_DO_SEU_APPS_SCRIPT_WEB_APP';
+const APP_URL = 'https://script.google.com/macros/s/AKfycbwKIcWlfMX4q2jeXB-9Linl_uMtF9RnQAjc4XPFYFcL4LNyaNGouY_J6j0O5eepz8FlTA/exec';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Ano dinâmico no footer
