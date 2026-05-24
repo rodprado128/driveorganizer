@@ -439,4 +439,34 @@ section { padding: 100px 0; }
 @media (max-width: 600px) {
   section { padding: 64px 0; }
   .hero-inner { padding: 32px 20px 60px; }
+  .hero-title { letter-spacing: -1px; }
+  .nav { padding: 16px; }
+  .brand-logo { font-size: 24px; }
+  .brand-name { font-size: 16px; }
+
+  .cta-section { padding: 64px 20px; min-height: 70vh; }
+  .cta-btn { padding: 12px 24px; font-size: 14px; }
+  .cta-note { font-size: 12px; padding: 0 16px; }
+
+  .steps-grid { grid-template-columns: 1fr; gap: 16px; }
+  .step { padding: 24px 20px; }
+
+  .cat-grid { gap: 12px; }
+  .cat-card { padding: 20px 14px; }
+  .cat-emoji { font-size: 30px; }
+
+  .security p { font-size: 15px; }
+  .check-list li { font-size: 14px; }
+
+  .author-text h2 { font-size: 26px; }
+  .author-text p { font-size: 15px; }
+  .linkedin-cta { font-size: 14px; padding: 10px 20px; }
+
+  .footer-note { font-size: 10px; padding: 0 16px; }
+}
+
+@media (max-width: 380px) {
+  .hero-title { font-size: 36px !important; }
+  .hero-sub { font-size: 15px !important; }
+  .container { padding: 0 16px; }
 }
